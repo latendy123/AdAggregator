@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Packaging
+*.egg-info/
+/dist
+
+# Test & IDE
+.pytest_cache/
+.coverage
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project outputs
+# results/
+# bench_results/
+# sample_*.csv
+# sample*.csv
+
+# Logs
+*.log
+
+# Ignore compiled C extensions
+*.so

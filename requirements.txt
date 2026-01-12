@@ -1,0 +1,4 @@
+# External libs used for optional benchmarking and tests
+pytest>=7.0.0
+psutil>=5.9.0
+
