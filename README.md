@@ -24,7 +24,7 @@ Run the aggregator on a CSV file and write results to an output directory:
 
 ### Extract and move ad_data.csv to inputs folder
 ```bash
-python aggregator.py --input inputs/ad_data.csv --output results/ --top 10
+python aggregator.py --input inputs/ad_data.csv --output results/ --top 10 --profile
 ```
 
 Where `ad_data.csv` follows the schema: `campaign_id,date,impressions,clicks,spend,conversions`.
